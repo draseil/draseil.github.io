@@ -1,0 +1,27 @@
+body {
+	font-family: monospace;
+	font-size: 1.5em;
+	line-height: 1.5;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#text-box {
+	position: absolute;
+	left: 5vw;
+	top: calc(75vh - 200px);
+	width: 250px;
+	height: 200px;
+	overflow-wrap: normal;
+}
